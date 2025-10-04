@@ -7,7 +7,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <NavBar />
-      <section className=" w-full flex-col h-[90dvh] items-center dark:bg-gray-950 flex gap-5 py-9">
+      <section className=" w-full flex-col h-dvh items-center dark:bg-gray-950 flex gap-5 py-25">
         <Input />
         <QrCode />
       </section>
