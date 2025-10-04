@@ -7,7 +7,7 @@ const NavBar = () => {
   const { isDark, toggleIsDark } = useContext(ThemeContext);
 
   return (
-    <header className="flex justify-between items-center px-6 py-2 shadow-md bg-white dark:bg-gray-800">
+    <header className="flex justify-between relative w-full  shadow-md items-center px-6 py-2  bg-white dark:bg-gray-900">
       <div className="flex items-center flex-nowrap">
         <span className="bg-indigo-400 p-2 rounded-lg">
           <BsQrCode size={25} color="white" />

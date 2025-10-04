@@ -10,6 +10,6 @@
     @apply bg-gray-100 w-full h-dvh;
   }
   input {
-    @apply border border-zinc-300 text-zinc-900 pl-3 rounded-lg py-2;
+    @apply border border-zinc-300 text-zinc-900 pl-3 rounded-lg py-2 mt-1.5 dark:text-white dark:outline-blue-500;
   }
 }
