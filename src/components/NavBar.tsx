@@ -13,7 +13,7 @@ const NavBar = () => {
           <BsQrCode size={25} color="white" />
         </span>
         <div className="ml-3 text-nowrap">
-          <h1 className="font-medium text-lg sm:text-2xl text-gray-900 dark:text-white">QR Code Generator</h1>
+          <h1 className="font-medium text-md sm:text-2xl text-gray-900 dark:text-white">QR Code Generator</h1>
           <p className="text-zinc-500 text-xs sm:text-sm dark:text-gray-400">Create beautiful Qr code instantly</p>
         </div>
       </div>
